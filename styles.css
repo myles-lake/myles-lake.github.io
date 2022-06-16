@@ -2,6 +2,10 @@ img {
   max-width: 40%;
 }
 
+iframe {
+  max-width: 100%;
+}
+
 img, iframe {
   display: block;
   margin-left: auto;
