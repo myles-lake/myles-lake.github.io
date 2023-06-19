@@ -1,19 +1,17 @@
-img {
-  max-width: 40%;
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
-  img {
-    max-width: 80%;
-  }
-}
-
-iframe {
-  max-width: 80%;
+span {
+  position: relative;
 }
 
 img, iframe {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  flex: 1;
+  max-width: 50vw;
+  max-height: 100vw;
 }
